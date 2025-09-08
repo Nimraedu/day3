@@ -1,0 +1,36 @@
+/* div > p {
+    color: red;
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 10px;
+} */
+div p {
+    color: red;
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 10px;
+}
+[width] {
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px;
+}
+tr:nth-child(even) {
+    background-color: #9C9CB6;
+}
+tr:nth-child(even):hover{
+    background-color: #3737a4;
+}
+tr:nth-child(2n+1) {
+    background-color: white;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 10px;
+}
